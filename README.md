@@ -54,6 +54,6 @@ export SLACK_CHANNEL="#alert_notification"
 ### 1️⃣ Clone the repository and navigate to the directory
 
 ```bash
-git clone https://github.com/your-username/monitoring-stack.git
+git clone https://github.com/Anup-Neupane/Scenario-3.git
 cd monitoring-stack
 chmod +x quick-setup.sh
