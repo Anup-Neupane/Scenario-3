@@ -49,8 +49,11 @@ To receive alert notifications in Slack:
 export SLACK_WEBHOOK_URL="https://hooks.slack.com/services/XXX/YYY/ZZZ"
 export SLACK_CHANNEL="#alert_notification"
 
-### 🧭 Installation Steps
-git clone https://github.com/<your-repo>/monitoring-stack.git
+## 🧭 Installation Steps
+
+### 1️⃣ Clone the repository and navigate to the directory
+
+```bash
+git clone https://github.com/your-username/monitoring-stack.git
 cd monitoring-stack
 chmod +x quick-setup.sh
-./quick-setup.sh
