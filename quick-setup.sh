@@ -17,7 +17,7 @@ NC='\033[0m' # No Color
 # Configuration
 NAMESPACE_MONITORING="monitoring"
 NAMESPACE_APP="demo-app"
-SLACK_WEBHOOK_URL="${SLACK_WEBHOOK_URL:-}"
+SLACK_WEBHOOK_URL="${SLACK_WEBHOOK_URL:-"
 SLACK_CHANNEL="${SLACK_CHANNEL:-#alert_notification}"
 
 echo -e "${BLUE}╔════════════════════════════════════════════════════════════╗${NC}"
